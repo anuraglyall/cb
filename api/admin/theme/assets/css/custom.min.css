@@ -1,0 +1,104 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+  /* 12 june 2024 starts */
+  .inner-modal.modal {
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 15px;
+}
+
+.inner-modal.modal .modal-dialog {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    height: calc(100% - 56px);
+    overflow: auto;
+}
+
+.inner-modal.modal .modal-dialog .modal-content {
+    height: auto;
+}
+
+.inner-modal .modal-header {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.inner-modal .modal-header .modal-title {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.inner-modal .modal-header .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.inner-modal .modal-body .tablelist-form {
+    display: block;
+}
+
+.tablelist-form .form-group .form-control {
+    border-radius: 6px !important;
+    border: 1px solid var(--vz-input-border) !important;
+    margin: 0 !important;
+    font-size: 14px;
+}
+
+.inner-modal .modal-body .tablelist-form .row {
+    margin: 0 -10px;
+}
+
+.inner-modal .modal-body .tablelist-form .row>div[class*="col-"] {
+    padding: 0 10px;
+}
+
+.inner-modal .modal-body .tablelist-form .form-group:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.inner-modal .modal-body .tablelist-form .form-label.btn {
+    margin: 0;
+}
+
+.inner-modal .modal-body .tablelist-form .check-input label {
+    margin: 0 !important;
+}
+
+.inner-modal .modal-body .tablelist-form .check-input input {
+    display: inline-block;
+}
+
+.inner-modal .modal-body .cstm-mb {
+    margin-bottom: 16px;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 991px)
+and (orientation : landscape) {
+    .inner-modal.modal .modal-dialog .modal-content {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .inner-modal .modal-header .modal-title {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .inner-modal.modal {
+        padding: 0;
+    }
+
+    .inner-modal.modal .modal-dialog {
+        height: calc(100% - 16px);
+    }
+}
+/* 12 june 2024 ends */
