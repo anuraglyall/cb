@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Response denied by WatchGuard HTTP Proxy</title> 
+    <style type="text/css">
+      body {
+        font-family: Arial, Helvetica, Verdana, Sans-Serif;
+        font-size: small;            
+        font-weight: normal;            
+        color: #000000;
+      }
+      div {            
+        margin-left: auto;            
+        margin-right: auto;            
+        text-align: center;
+      }
+      .box {          
+        width: 600px;
+        background-color: #F2F2F2;            
+        border-left: solid 1px #C2C2C2;            
+        border-right: solid 1px #C2C2C2;            
+        vertical-align: middle;
+        padding: 20px 10px 20px 10px;
+      }
+      p {
+        text-align: left;
+      }
+      .red {
+        font-weight: bold;
+        color: Red;
+        text-align: center;
+      }
+      .band {            
+        height: 20px;
+        color: White;
+        background: #333333;
+        width: 600px;
+        border-left: solid 1px #333333;
+        border-right: solid 1px #333333;
+        padding: 3px 10px 0px 10px;
+      }
+      div#wrap {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body> 
+    <div id="wrap">
+      <div class="band"></div>
+      <div class="box">
+        <p class="red">Response denied by WatchGuard HTTP Proxy.</p>
+        <p><b> Reason: </b> body content-type denied rule='ZIP archive' </p>
+        <p>Please contact your administrator for assistance.</p>
+        <p>More Details:</p>
+        <p><b>Method:</b> GET</p>
+        <p><b>Host:</b> 47.128.72.3</p>
+        <p><b>Path:</b> /Codebright/api/admin/uploads/course_material/1163403932-Code%20Bright%20Tuition%20app%20Use%20case%20document%20(Parent)%20V1.0.docx</p> 
+      </div>
+      <div class="band">WatchGuard Technologies, Inc.</div>
+    </div>
+  
+</body>
+</html>
