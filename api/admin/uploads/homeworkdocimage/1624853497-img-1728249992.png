@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .not-wrapper {
+        max-width: 900px;
+        background: #fff;
+        margin: 0 auto;
+        min-height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .not-found-blk-img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .not-found-blk-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .not-found-blk h1 {
+        color: #082562;
+    }
+
+    .not-found-blk p {
+        color: #999999;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>404</title>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+    <!-- Custom stlylesheet -->
+
+</head>
+
+<body>
+    <section class="main-section not-found-section spacer">
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-xl-12">
+                    <div class="not-wrapper">
+                        <div class="not-found-blk">
+                            <div class="not-found-blk-img">
+                                <img src="https://poseidon-fire.com/public/admin/images/not-found.png" alt="Not Found">
+                            </div>
+                            <h1 class="mb-0">Oops! Page Not Found</h1>
+                            <p class="mb-0">Please, return to the page</p>
+                            <a href="javascript:void(0)" class="primary-btn d-inline-block mt-4" onclick="window.history.go(-1); return false;">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpbh-mt'},{'server':'p3plmcpnl495099'},{'dcenter':'p3'},{'cp_id':'8566343'},{'cp_cache':''},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
